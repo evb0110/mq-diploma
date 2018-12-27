@@ -26,13 +26,24 @@ body {
   padding: 0;
 }
 
+.header,
+.footer,
+.section1,
+.section2,
+.section3 {
+  display: flex;
+  flex-direction: column;
+}
+
 /* HEADER */
 
 .header,
 .footer {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -40,6 +51,7 @@ body {
 }
 
 .header {
+  background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9));
   background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/football_767.jpg);
 }
 
@@ -56,7 +68,7 @@ body {
 }
 
 .header .child2 {
-  height: 146px;
+  min-height: 146px;
   display: flex;
   align-items: flex-end;
 }
@@ -68,6 +80,10 @@ body {
   font-weight: bold;
 }
 
+.header .slogan1 {
+  padding-top: 100px;
+}
+
 .header .slogan1,
 .footer .slogan1 {
   margin-left: 20px;
@@ -75,13 +91,14 @@ body {
 }
 
 .header .child3 {
-  height: 84px;
+  min-height: 84px;
   display: flex;
   align-items: flex-start;
 }
 
 .header .slogan2 {
   margin-left: 64px;
+  margin-right: 20px;
   font-size: 28px;
 }
 
@@ -93,11 +110,13 @@ body {
 }
 
 .header .child4 {
+  min-width: ;
   height: 124px;
 }
 
 .header .child5 {
-  height: 49px;
+  min-height: 49px;
+  margin-bottom: 85px;
 }
 
 .header .button {
@@ -143,14 +162,11 @@ body {
 
 .section1 .section-header,
 .section2 .section-header {
-  position: absolute;
   font-size: 50px;
   color: rgb(231, 231, 231);
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0;
-  top: 5px;
-  left: 20px;
+  margin: 5px 0 0 20px;
 }
 
 .section1 .text,
@@ -197,22 +213,22 @@ body {
 
 .section1 .child1 {
   position: relative;
-  height: 60px;
+  min-height: 70px;
 }
 
 .section1 .child2 {
   position: relative;
-  height: 245px;
+  min-height: 235px;
 }
 
 .section1 .child2 .img-footballer {
   position: absolute;
-  left: 70px;
-  top: 20px;
+  left: 75px;
+  top: 0px;
 }
 
 .section1 .child3 {
-  height: 213px;
+  min-height: 213px;
   background-color: rgb(250, 250, 250);
 }
 
@@ -222,13 +238,13 @@ body {
 
 .section1 .child4 {
   display: flex;
-  height: 262px;
+  min-height: 262px;
   background-color: rgb(245, 244, 249);
 }
 
 .section1 .child5 {
   display: flex;
-  height: 228px;
+  min-height: 228px;
   background-color: rgb(94, 66, 176)
 }
 
@@ -244,12 +260,12 @@ body {
 
 .section2 .child1 {
   position: relative;
-  height: 60px;
+  min-height: 60px;
 }
 
 .section2 .child2 {
   position: relative;
-  height: 245px;
+  min-height: 245px;
 }
 
 .section2 .child2 .img-basketballer {
@@ -259,7 +275,7 @@ body {
 }
 
 .section2 .child3 {
-  height: 251px;
+  min-height: 251px;
   background-color: rgb(250, 250, 250);
 }
 
@@ -269,13 +285,13 @@ body {
 
 .section2 .child4 {
   display: flex;
-  height: 192px;
+  min-height: 192px;
   background-color: rgb(245, 244, 249);
 }
 
 .section2 .child5 {
   display: flex;
-  height: 189px;
+  min-height: 189px;
   background-color: rgb(9, 12, 53);
 }
 
@@ -304,7 +320,7 @@ body {
 .section3 .number-text {
   position: relative;
   padding-top: 30px;
-  height: 212px;
+  min-height: 212px;
 }
 
 .section3 .number-rectangle {
@@ -312,7 +328,7 @@ body {
   left: 20px;
   top: -58px;
   width: 70px;
-  height: 70px;
+  min-height: 70px;
   background-color: rgb(94, 66, 176);
   display: flex;
   justify-content: center;
@@ -334,6 +350,7 @@ body {
 /* FOOTER  */
 
 .footer {
+  background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9));
   background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/game_767.jpg);
   display: flex;
   flex-direction: column;
@@ -377,6 +394,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .footer .child3 {
   display: flex;
   align-items: flex-start;
