@@ -130,7 +130,6 @@ p {
   justify-content: flex-end;
   align-items: center;
   padding-right: 9px;
-
 }
 
 .header .button .logo+.cta {
@@ -182,11 +181,11 @@ p {
   margin: 0;
   padding-left: 8px;
   font-size: 23px;
+  flex: 0 0 90%;
 }
 
 .section1 .container-flex,
 .section2 .container-flex {
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -209,6 +208,8 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
 
 /* section 1 - athletes  */
 
@@ -336,7 +337,6 @@ p {
   padding-left: 0;
 }
 
-
 /* FOOTER  */
 
 .footer {
@@ -438,7 +438,4 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
-  /* margin: auto auto 10px auto; */
-  /* justify-self: flex-end; */
 }
