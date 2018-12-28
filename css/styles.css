@@ -69,9 +69,9 @@ p {
 
 .header .child2 {
   display: flex;
-  align-items: flex-end;
-  padding-top: 130px;
-  padding-left: 20px;
+  padding-top: 120px;
+  padding-right: 70px;
+  justify-content: center;
 
 }
 
@@ -89,9 +89,10 @@ p {
 
 .header .child3 {
   display: flex;
-  padding-right: 20px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-left: 65px;
+  padding-right: 20px;
+  justify-content: center;
 }
 
 .header .slogan2 {
@@ -105,7 +106,7 @@ p {
 }
 
 .header .child4 {
-  padding-top: 100px;
+  padding-top: 85px;
 }
 
 .header .child5 {
@@ -309,7 +310,9 @@ p {
 .section3 .number-text {
   position: relative;
   padding-top: 30px;
-  min-height: 212px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 75px;
 }
 
 .section3 .number-rectangle {
@@ -330,9 +333,8 @@ p {
   border-bottom: 4px solid rgb(143, 123, 200);
 }
 
-.section3 .heading,
-.section3 .text {
-  padding-left: 20px;
+.section3 .heading {
+  padding-left: 0;
 }
 
 
