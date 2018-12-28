@@ -52,6 +52,7 @@ p {
 .header {
   background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9));
   background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/football_767.jpg);
+  background-position: 50% 0;
 }
 
 .header .child1 {
@@ -112,7 +113,8 @@ p {
   padding-top: 15px;
 }
 
-.header .button {
+.header .button,
+.footer .button {
   display: flex;
   align-items: center;
   width: 280px;
@@ -124,7 +126,8 @@ p {
   text-decoration: none;
 }
 
-.header .button .logo {
+.header .button .logo,
+.footer .button .logo {
   width: 40%;
   display: flex;
   justify-content: flex-end;
@@ -132,15 +135,18 @@ p {
   padding-right: 9px;
 }
 
-.header .button .logo+.cta {
+.header .button .logo+.cta,
+.footer .button .logo+.cta {
   width: 60%;
 }
 
-.header .button .store {
+.header .button .store,
+.footer .button .store {
   font-weight: bold;
 }
 
-.header .logo .logo-image {
+.header .logo .logo-image,
+.footer .logo .logo-image {
   width: 20px;
   height: 24px;
 }
@@ -356,7 +362,7 @@ p {
   width: 70px;
   height: 70px;
   border-radius: 12px;
-  padding: 7px;
+  padding: 9px 7px 7px 7px;
   background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
 }
 
@@ -379,7 +385,7 @@ p {
 
 .footer .subslogan {
   font-size: 14px;
-  color: rgb(125, 116, 162);
+  color: rgb(164, 150, 202);
   text-transform: uppercase;
 }
 
@@ -397,39 +403,6 @@ p {
 
 .footer .child4 {
   padding-top: 13px;
-}
-
-.footer .button {
-  display: flex;
-  align-items: center;
-  width: 280px;
-  height: 35px;
-  border-radius: 17.5px;
-  font-size: 8px;
-  color: white;
-  background-color: rgb(94, 66, 176);
-  text-decoration: none;
-}
-
-.footer .button .logo {
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.footer .button .logo+.cta {
-  width: 60%;
-}
-
-.footer .button .store {
-  font-weight: bold;
-}
-
-.footer .logo .logo-image {
-  width: 20px;
-  height: 24px;
-  margin-right: 9px;
 }
 
 .footer .child5 {

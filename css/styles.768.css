@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+  .header {
+    background-image: linear-gradient(
+        rgba(10, 14, 52, 0.9),
+        rgba(10, 14, 52, 0.9)
+      ),
+      url(../sources/img/football_1280.jpg);
+  }
+  .header .surface-text-logo,
+  .footer .surface-text-logo {
+    width: 210px;
+  }
+  .header .child2 {
+    padding-top: 160px;
+    padding-right: 115px;
+    line-height: 1;
+  }
+  .header .child3 {
+    padding-top: 0;
+    padding-left: 195px;
+    padding-right: 85px;
+    line-height: 1.2;
+  }
+  .header .slogan1 {
+    font-size: 70px;
+  }
+  .header .slogan2 {
+    font-size: 64px;
+  }
+  .header .button,
+  .footer .button {
+    width: 311px;
+    height: 77px;
+    border-radius: 37.5px;
+    font-size: 14px;
+  }
+  .header .button .logo,
+  .footer .button .logo {
+    width: 33%;
+    padding-right: 23px;
+  }
+  .header .button .logo + .cta,
+  .footer .button .logo + .cta {
+    width: 67%;
+  }
+  .header .logo .logo-image,
+  .footer .logo .logo-image {
+    width: 39px;
+    height: 46px;
+  }
+  .header .child4,
+  .footer .child3 {
+    padding: 0 15px 0 0;
+  }
+  .header .child5,
+  .footer .child4 {
+    padding: 0 0 0 15px;
+  }
+
+  .header .buttons,
+  .footer .buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 280px;
+  }
+  .footer .child1 {
+    padding-top: 125px;
+  }
+  .footer .child5 {
+    padding-bottom: 24px;
+  }
+  .footer .child1 .surface {
+    width: 132px;
+    height: 132px;
+    border-radius: 25px;
+    padding: 14px 12px 12px 12px;
+    background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
+  }
+  .footer .child2 {
+    padding-top: 65px;
+  }
+  .footer .slogan1 {
+    font-size: 85px;
+  }
+  .footer .subslogan {
+    font-size: 35px;
+    line-height: 1;
+  }
+}
