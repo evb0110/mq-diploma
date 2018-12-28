@@ -21,7 +21,8 @@ html {
 }
 
 html,
-body {
+body,
+p {
   margin: 0;
   padding: 0;
 }
@@ -56,7 +57,7 @@ body {
 }
 
 .header .child1 {
-  height: 69px;
+  padding-top: 33px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -64,13 +65,14 @@ body {
 
 .header .child1 .surface-text-logo {
   width: 133px;
-  height: 36px;
 }
 
 .header .child2 {
-  min-height: 146px;
   display: flex;
   align-items: flex-end;
+  padding-top: 130px;
+  padding-left: 20px;
+
 }
 
 .header .slogan1,
@@ -80,25 +82,19 @@ body {
   font-weight: bold;
 }
 
-.header .slogan1 {
-  padding-top: 100px;
-}
-
 .header .slogan1,
 .footer .slogan1 {
-  margin-left: 20px;
   font-size: 31px;
 }
 
 .header .child3 {
-  min-height: 84px;
   display: flex;
-  align-items: flex-start;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-left: 65px;
 }
 
 .header .slogan2 {
-  margin-left: 64px;
-  margin-right: 20px;
   font-size: 28px;
 }
 
@@ -106,17 +102,14 @@ body {
 .header .child5 {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 }
 
 .header .child4 {
-  min-width: ;
-  height: 124px;
+  padding-top: 100px;
 }
 
 .header .child5 {
-  min-height: 49px;
-  margin-bottom: 85px;
+  padding-top: 15px;
 }
 
 .header .button {
@@ -136,6 +129,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 9px;
+
 }
 
 .header .button .logo+.cta {
@@ -149,7 +144,6 @@ body {
 .header .logo .logo-image {
   width: 20px;
   height: 24px;
-  margin-right: 9px;
 }
 
 .header .cta,
@@ -166,7 +160,7 @@ body {
   color: rgb(231, 231, 231);
   font-weight: bold;
   text-transform: uppercase;
-  margin: 5px 0 0 20px;
+  margin: 5px 0 5px 20px;
 }
 
 .section1 .text,
@@ -197,8 +191,6 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 30px;
 }
 
 .section1 .number,
@@ -207,6 +199,15 @@ body {
   font-weight: bold;
   font-size: 14px;
   border-bottom: 4px solid rgb(94, 66, 176);
+}
+
+.section1 .card,
+.section2 .card,
+.section3 .card {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* section 1 - athletes  */
@@ -233,12 +234,12 @@ body {
 }
 
 .section1 .child3 .container-flex {
-  padding-top: 74px;
+  padding-top: 20px;
 }
 
 .section1 .child4 {
   display: flex;
-  min-height: 262px;
+  /* min-height: 262px; */
   background-color: rgb(245, 244, 249);
 }
 
@@ -265,13 +266,12 @@ body {
 
 .section2 .child2 {
   position: relative;
-  min-height: 245px;
+  min-height: 220px;
 }
 
 .section2 .child2 .img-basketballer {
   position: absolute;
   left: 8px;
-  top: 23px;
 }
 
 .section2 .child3 {
@@ -280,7 +280,7 @@ body {
 }
 
 .section2 .child3 .container-flex {
-  padding-top: 74px;
+  padding-top: 20px;
 }
 
 .section2 .child4 {
@@ -355,7 +355,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .footer .child1 {
   display: flex;
