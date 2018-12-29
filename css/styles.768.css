@@ -1,10 +1,20 @@
 @media (min-width: 768px) {
+  /* HEADER AND FOOTER */
+
   .header {
     background-image: linear-gradient(
         rgba(10, 14, 52, 0.9),
         rgba(10, 14, 52, 0.9)
       ),
       url(../sources/img/football_1280.jpg);
+  }
+
+  .footer {
+    background-image: linear-gradient(
+        rgba(10, 14, 52, 0.9),
+        rgba(10, 14, 52, 0.9)
+      ),
+      url(../sources/img/game_1280.jpg);
   }
   .header .surface-text-logo,
   .footer .surface-text-logo {
@@ -74,7 +84,11 @@
     height: 132px;
     border-radius: 25px;
     padding: 14px 12px 12px 12px;
-    background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
+    background-image: linear-gradient(
+      180deg,
+      rgb(115, 83, 210),
+      rgb(80, 55, 155)
+    );
   }
   .footer .child2 {
     padding-top: 65px;
@@ -85,5 +99,64 @@
   .footer .subslogan {
     font-size: 35px;
     line-height: 1;
+  }
+
+  /* SECTION1, SECTION2 */
+
+  .section1 .child {
+    padding: 40px 30px 40px 290px;
+  }
+  .section2 .child {
+    padding: 40px 300px 40px 30px;
+  }
+  .section1 .child1,
+  .section2 .child1 {
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+  .section1 .child2,
+  .section2 .child2 {
+    height: 0;
+    padding: 0;
+  }
+  .section1 .child2 .img-footballer {
+    width: 497px;
+    height: 699px;
+    top: -85px;
+    left: -160px;
+  }
+  .section2 .child2 .img-basketballer {
+    left: auto;
+    top: -130px;
+    right: 0;
+  }
+  .section1 .child3,
+  .section2 .child3 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+  }
+  .section1 .child3 .container-flex,
+  .section2 .child3 .container-flex {
+    padding-top: 25px;
+  }
+
+  .section1 .section-header,
+  .section2 .section-header {
+    font-size: 88px;
+  }
+  .section1 .number,
+  .section2 .number,
+  .section3 .number {
+    font-size: 18px;
+  }
+  .section1 .heading,
+  .section2 .heading,
+  .section3 .heading {
+    font-size: 32px;
+  }
+  .section1 .text,
+  .section2 .text,
+  .section3 .text {
+    font-size: 16px;
   }
 }

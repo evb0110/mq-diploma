@@ -22,7 +22,9 @@ html {
 
 html,
 body,
-p {
+p,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -165,7 +167,11 @@ p {
   color: rgb(231, 231, 231);
   font-weight: bold;
   text-transform: uppercase;
-  margin: 5px 0 5px 20px;
+}
+
+.section1 .child1,
+.section2 .child1 {
+  padding: 5px 0 5px 20px;
 }
 
 .section1 .text,
@@ -226,7 +232,7 @@ p {
 
 .section1 .child2 {
   position: relative;
-  min-height: 235px;
+  height: 235px;
 }
 
 .section1 .child2 .img-footballer {
@@ -247,7 +253,6 @@ p {
 }
 
 .section1 .child5 {
-  min-height: 228px;
   background-color: rgb(94, 66, 176)
 }
 
@@ -267,7 +272,7 @@ p {
 
 .section2 .child2 {
   position: relative;
-  min-height: 220px;
+  height: 220px;
 }
 
 .section2 .child2 .img-basketballer {
