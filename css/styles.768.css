@@ -1,8 +1,4 @@
-@media (min-width: 768px) {
-  /* MAX WIDTH SHOULD BE ADDED HERE!!! */
-
-
-
+@media (min-width: 768px) and (max-width: 960px) {
 
   /* HEADER AND FOOTER */
 
@@ -52,21 +48,34 @@
     font-size: 14px;
   }
 
-  .header .button .logo,
-  .footer .button .logo {
+  .header .child4 .logo,
+  .footer .child3 .logo {
     width: 33%;
-    padding-right: 23px;
+    padding-right: 25px;
+    padding-bottom: 5px;
   }
 
-  .header .button .logo+.cta,
-  .footer .button .logo+.cta {
+  .header .child4 .logo+.cta,
+  .footer .child3 .logo+.cta {
     width: 67%;
+  }
+
+
+  .header .child5 .logo,
+  .footer .child4 .logo {
+    width: 40%;
+    padding-right: 29px;
+  }
+
+  .header .child5 .logo+.cta,
+  .footer .child4 .logo+.cta {
+    width: 60%;
   }
 
   .header .logo .logo-image,
   .footer .logo .logo-image {
-    width: 39px;
-    height: 46px;
+    width: 42px;
+    height: 50px;
   }
 
   .header .child4,
@@ -84,6 +93,7 @@
     display: flex;
     justify-content: center;
     padding-top: 280px;
+    padding-bottom: 90px;
   }
 
   .footer .child1 {
