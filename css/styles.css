@@ -319,6 +319,12 @@ h3 {
   height: 356px;
 }
 
+  .section3 .img-be-active,
+  .section3 .img-find-contact,
+  .section3 .img-work-it {
+    width: 100%;
+  }
+
 .section3 .number-text {
   position: relative;
   padding-top: 30px;
