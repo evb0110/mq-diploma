@@ -2,41 +2,43 @@
   /* HEADER AND FOOTER */
 
   .header {
-    background-image: linear-gradient(
-        rgba(10, 14, 52, 0.9),
-        rgba(10, 14, 52, 0.9)
-      ),
+    background-image: linear-gradient(rgba(10, 14, 52, 0.9),
+      rgba(10, 14, 52, 0.9)),
       url(../sources/img/football_1280.jpg);
   }
 
   .footer {
-    background-image: linear-gradient(
-        rgba(10, 14, 52, 0.9),
-        rgba(10, 14, 52, 0.9)
-      ),
+    background-image: linear-gradient(rgba(10, 14, 52, 0.9),
+      rgba(10, 14, 52, 0.9)),
       url(../sources/img/game_1280.jpg);
   }
+
   .header .surface-text-logo,
   .footer .surface-text-logo {
     width: 210px;
   }
+
   .header .child2 {
     padding-top: 160px;
     padding-right: 115px;
     line-height: 1;
   }
+
   .header .child3 {
     padding-top: 0;
     padding-left: 195px;
     padding-right: 85px;
     line-height: 1.2;
   }
+
   .header .slogan1 {
     font-size: 70px;
   }
+
   .header .slogan2 {
     font-size: 64px;
   }
+
   .header .button,
   .footer .button {
     width: 311px;
@@ -44,24 +46,29 @@
     border-radius: 37.5px;
     font-size: 14px;
   }
+
   .header .button .logo,
   .footer .button .logo {
     width: 33%;
     padding-right: 23px;
   }
-  .header .button .logo + .cta,
-  .footer .button .logo + .cta {
+
+  .header .button .logo+.cta,
+  .footer .button .logo+.cta {
     width: 67%;
   }
+
   .header .logo .logo-image,
   .footer .logo .logo-image {
     width: 39px;
     height: 46px;
   }
+
   .header .child4,
   .footer .child3 {
     padding: 0 15px 0 0;
   }
+
   .header .child5,
   .footer .child4 {
     padding: 0 0 0 15px;
@@ -73,29 +80,33 @@
     justify-content: center;
     padding-top: 280px;
   }
+
   .footer .child1 {
     padding-top: 125px;
   }
+
   .footer .child5 {
     padding-bottom: 24px;
   }
+
   .footer .child1 .surface {
     width: 132px;
     height: 132px;
     border-radius: 25px;
     padding: 14px 12px 12px 12px;
-    background-image: linear-gradient(
-      180deg,
+    background-image: linear-gradient(180deg,
       rgb(115, 83, 210),
-      rgb(80, 55, 155)
-    );
+      rgb(80, 55, 155));
   }
+
   .footer .child2 {
     padding-top: 65px;
   }
+
   .footer .slogan1 {
     font-size: 85px;
   }
+
   .footer .subslogan {
     font-size: 35px;
     line-height: 1;
@@ -104,37 +115,44 @@
   /* SECTION1, SECTION2 */
 
   .section1 .child {
-    padding: 40px 30px 40px 290px;
+    padding: 40px 50px 40px 290px;
   }
+
   .section2 .child {
-    padding: 40px 300px 40px 30px;
+    padding: 40px 350px 40px 30px;
   }
+
   .section1 .child1,
   .section2 .child1 {
     padding-top: 55px;
     padding-bottom: 0;
   }
+
   .section1 .child2,
   .section2 .child2 {
     height: 0;
     padding: 0;
   }
+
   .section1 .child2 .img-footballer {
     width: 497px;
     height: 699px;
     top: -85px;
     left: -160px;
   }
+
   .section2 .child2 .img-basketballer {
     left: auto;
     top: -130px;
     right: 0;
   }
+
   .section1 .child3,
   .section2 .child3 {
     background-color: rgb(255, 255, 255);
     padding-top: 0;
   }
+
   .section1 .child3 .container-flex,
   .section2 .child3 .container-flex {
     padding-top: 25px;
@@ -144,19 +162,57 @@
   .section2 .section-header {
     font-size: 88px;
   }
+
   .section1 .number,
-  .section2 .number,
-  .section3 .number {
+  .section2 .number {
     font-size: 18px;
   }
+
   .section1 .heading,
   .section2 .heading,
   .section3 .heading {
     font-size: 32px;
   }
+
   .section1 .text,
-  .section2 .text,
-  .section3 .text {
+  .section2 .text {
     font-size: 16px;
+  }
+
+  .section3 .heading {
+    font-size: 84px;
+  }
+
+  .section3 .text {
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 65px;
+  }
+
+  .section3 .number-rectangle {
+    position: absolute;
+    left: 35px;
+    top: -80px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .section3 .number {
+    font-size: 24px;
+  }
+
+  .section3 .number-text {
+    padding-top: 60px;
+    padding-left: 32px;
+  }
+
+  .section3 .container-card-flex {
+    overflow: hidden;
+  }
+
+  .section3 .img-be-active,
+  .section3 .img-find-contact,
+  .section3 .img-work-it {
+    width: 100%;
   }
 }

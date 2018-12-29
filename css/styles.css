@@ -24,7 +24,8 @@ html,
 body,
 p,
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -44,7 +45,7 @@ h2 {
 .footer {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  min-height: 100vmax;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -331,7 +332,7 @@ h2 {
   left: 20px;
   top: -58px;
   width: 70px;
-  min-height: 70px;
+  height: 70px;
   background-color: rgb(94, 66, 176);
   display: flex;
   justify-content: center;
