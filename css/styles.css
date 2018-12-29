@@ -319,11 +319,11 @@ h3 {
   height: 356px;
 }
 
-  .section3 .img-be-active,
-  .section3 .img-find-contact,
-  .section3 .img-work-it {
-    width: 100%;
-  }
+.section3 .img-be-active,
+.section3 .img-find-contact,
+.section3 .img-work-it {
+  width: 100%;
+}
 
 .section3 .number-text {
   position: relative;
@@ -388,7 +388,7 @@ h3 {
 .footer .slogan1,
 .footer .slogan2,
 .footer .cta,
-.footer .store  {
+.footer .store {
   text-transform: uppercase;
   font-weight: bold;
   text-align: left;
