@@ -313,15 +313,10 @@ h3 {
   flex-direction: column;
 }
 
-.section3 .card-image {
-  object-fit: cover;
-  object-position: 67% 50%;
-  height: 356px;
-}
-
 .section3 .img-be-active,
 .section3 .img-find-contact,
 .section3 .img-work-it {
+  display: block;
   width: 100%;
 }
 

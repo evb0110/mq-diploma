@@ -95,16 +95,24 @@
 
   /* SECTION1, SECTION2 */
 
+  .section1 .child,
+  .section2 .child {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
   .section1 .child {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-left: calc(50% + 40px);
+    padding-right: 195px;
+  }
+  .section2 .child {
+    padding-left: 190px;
+    padding-right: calc(50%);
   }
 
   .section1 .section-header,
   .section2 .section-header {
     font-size: 88px;
   }
-
 
   .section1 .number,
   .section2 .number {
@@ -122,12 +130,10 @@
     font-size: 36px;
   }
 
-  .section1 .child {
-    padding-left: calc(50% + 40px);
-  }
   .section1 .child1,
   .section2 .child1 {
-    padding-top: 100px;
+    padding-top: 90px;
+    padding-bottom: 0;
   }
 
   .section1 .child2,
@@ -139,16 +145,65 @@
   .section1 .child2 .img-footballer {
     width: 566px;
     height: 908px;
-    top: -235px;
-    left: calc(50% - 580px);
+    top: -180px;
+    left: calc(50% - 505px);
   }
-  .section1 .child3 {
+  .section2 .child2 .img-basketballer {
+    width: 991px;
+    height: 815px;
+    top: -190px;
+    left: calc(50% - 180px);
+  }
+  .section1 .child3,
+  .section2 .child3 {
     padding-top: 50px;
     background: rgb(255, 255, 255);
   }
- 
+
   .section1 .child3 .container-flex {
     padding-top: 0;
+  }
+
+  /* SECTION 3 */
+
+  .section3 .heading {
+    font-size: 80px;
+  }
+
+  .section3 .container-card-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .section3 .container-card-flex > * {
+    width: 50%;
+  }
+  .section3 .card2 .number-text {
+    order: -1;
+  }
+  .section3 .number-text {
+    padding: calc(10%) 190px 0 130px;
+  }
+  .section3 .card2 .number-text {
+    padding: 10% 100px 0 190px;
+  }
+  .section3 .number-rectangle {
+    position: absolute;
+    left: -84px;
+    top: calc(50% - 155px);
+    width: 168px;
+    height: 155px;
+  }
+  .section3 .card2 .number-rectangle {
+    left: calc(100% - 84px);
+  }
+
+  .section3 .number,
+  .section3 .text {
+    font-size: 24px;
+  }
+
+  .section3 .text {
+    padding-top: 90px;
   }
 
 
