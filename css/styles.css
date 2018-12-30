@@ -18,6 +18,8 @@
 
 html {
   font-family: "Open Sans", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 html,
