@@ -17,7 +17,7 @@
 
 5. В header, чтобы текст нормально отображался на десктопе при изменении ширины, для текст надо ограничить ширину с помощью max-width, задать отступы по бокам небольшие, чтобы текст не прилипал к экрану. Вот https://codepen.io/sborjes/pen/xmPVVw
 
-6. Лишний div для изображения в блоке. Сразу за child1 пусть следует picture.
++6. Лишний div для изображения в блоке. Сразу за child1 пусть следует picture.
 
 7. Текст в ATHLETS на 961. Для .section1 .child задаем padding-right: 15px. .section1 .text - max-width: 36em. Для section2 .child     padding-right: 280px.
 

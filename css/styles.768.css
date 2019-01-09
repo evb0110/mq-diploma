@@ -14,87 +14,89 @@
       url(../sources/img/game_1280.jpg);
   }
 
-  .header .surface-text-logo,
+  .header__text-logo,
   .footer .surface-text-logo {
     width: 210px;
   }
 
-  .header .child2 {
-    padding-top: 160px;
-    padding-right: 115px;
-    line-height: 1;
-  }
-
-  .header .child3 {
-    padding-top: 0;
-    padding-left: 195px;
-    padding-right: 85px;
-    line-height: 1.2;
-  }
-
-  .header .slogan1 {
-    font-size: 70px;
-  }
-
-  .header .slogan2 {
+  .header__slogan {
+    margin: 0 auto;
+    padding: 165px 90px 0 90px;
     font-size: 64px;
   }
 
-  .header .button,
+  .header__slogan span {
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 64px;
+  }
+
+  .header__buttons,
+  .footer .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;
+    margin-bottom: 90px;
+  }
+
+  .header__button,
   .footer .button {
     width: 311px;
     height: 77px;
-    border-radius: 37.5px;
+    border-radius: 38.5px;
     font-size: 14px;
   }
 
-  .header .child4 .logo,
+  .header__button:nth-child(1) {
+    margin: 0 15px 0 0;
+  }
+
+  .header__button:nth-child(2) {
+    margin: 0 0 0 15px;
+  }
+
+  .header__button .logo,
   .footer .child3 .logo {
     width: 33%;
     padding-right: 25px;
     padding-bottom: 5px;
   }
 
-  .header .child4 .logo+.cta,
-  .footer .child3 .logo+.cta {
-    width: 67%;
-  }
-
-
-  .header .child5 .logo,
-  .footer .child4 .logo {
+  .header__button:nth-child(2) .logo {
     width: 40%;
-    padding-right: 29px;
   }
 
-  .header .child5 .logo+.cta,
-  .footer .child4 .logo+.cta {
-    width: 60%;
-  }
-
-  .header .logo .logo-image,
+  .header__button .logo-image,
   .footer .logo .logo-image {
     width: 42px;
     height: 50px;
   }
 
-  .header .child4,
+  /* ************ */
+
+  .footer .child3 .logo+.cta {
+    width: 67%;
+  }
+
+
+  .footer .child4 .logo {
+    width: 40%;
+    padding-right: 29px;
+  }
+
+  .footer .child4 .logo+.cta {
+    width: 60%;
+  }
+
+
   .footer .child3 {
     padding: 0 15px 0 0;
   }
 
-  .header .child5,
   .footer .child4 {
     padding: 0 0 0 15px;
   }
 
-  .header .buttons,
-  .footer .buttons {
-    display: flex;
-    justify-content: center;
-    padding-top: 280px;
-    padding-bottom: 90px;
-  }
 
   .footer .child1 {
     padding-top: 125px;
