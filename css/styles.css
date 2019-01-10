@@ -128,7 +128,7 @@ h3 {
 /* ALL SECTIONS - COMMON */
 
 .athlets__heading,
-.section2 .section-header {
+.players__heading {
   font-size: 50px;
   color: rgb(231, 231, 231);
   font-weight: bold;
@@ -137,16 +137,15 @@ h3 {
   margin-top: 10px;
 }
 
-.img-footballer {
+.athlets .img-footballer,
+.players .img-basketballer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
 }
 
-
 .athlets .text,
-.section2 .text,
+.players .text,
 .section3 .text {
   padding-top: 15px;
   font-size: 15px;
@@ -155,126 +154,123 @@ h3 {
   text-align: left;
 }
 
-.athlets .heading,
-.section2 .heading,
+.athlets__subheading,
+.players__subheading,
 .section3 .heading {
   color: rgb(193, 193, 193);
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  padding-left: 8px;
   font-size: 23px;
   flex: 0 0 90%;
 }
 
 .athlets .container-flex,
+.players .container-flex,
 .section2 .container-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  padding: 50px 20px;
 }
-
-.athlets .number,
-.section2 .number,
-.section3 .number {
-  font-weight: bold;
-  font-size: 14px;
-  border-bottom: 4px solid rgb(94, 66, 176);
-}
-
-.athlets .card,
-.section2 .card,
-.section3 .card {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 
 
 /* section 1 - athletes  */
 
-.athlets .child1 {
+.athlets .container-flex:nth-of-type(1) {
+  z-index: -1;
   position: relative;
-  min-height: 70px;
+  background-color: rgb(250, 250, 250);
+  padding-top: 20px;
 }
-
-.athlets .child2 {
-  position: relative;
-  height: 235px;
-}
-
-.athlets .child2 .img-footballer {
+.athlets .container-flex:nth-of-type(1)::before {
+  display: block;
+  content: '';
+  padding: 0;
+  width: 100%;
+  height: 55px;
   position: absolute;
-  left: 75px;
-}
-
-.athlets .child3 {
+  top: -55px;
+  left: 0;
   background-color: rgb(250, 250, 250);
 }
 
-.athlets .child3 .container-flex {
-  padding-top: 20px;
-}
 
-.athlets .child4 {
+.athlets .container-flex:nth-of-type(2) {
   background-color: rgb(245, 244, 249);
 }
 
-.athlets .child5 {
+.athlets .container-flex:nth-of-type(3) {
   background-color: rgb(94, 66, 176)
 }
 
-.athlets .child5 .number {
+
+
+.athlets__subheading::before,
+.players__subheading::before {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 4px solid rgb(94, 66, 176);
+  margin-right: 8px;
+  position: relative;
+  top: -7px;
+}
+.athlets .container-flex:nth-of-type(1) .athlets__subheading::before,
+.players .container-flex:nth-of-type(1) .players__subheading::before {
+  content: "01";
+}
+.athlets .container-flex:nth-of-type(2) .athlets__subheading::before,
+.players .container-flex:nth-of-type(2) .players__subheading::before {
+  content: "02";
+}
+.athlets .container-flex:nth-of-type(3) .athlets__subheading::before,
+.players .container-flex:nth-of-type(3) .players__subheading::before {
+  content: "03";
   border-bottom-color: rgb(255, 255, 255);
 }
-
-.athlets .child5 .text {
+.athlets .container-flex:nth-of-type(3) .text,
+.players .container-flex:nth-of-type(3) .text {
   color: rgb(255, 255, 255);
 }
 
 /* section 2 - players  */
 
-.section2 .child1 {
+.players .container-flex:nth-of-type(1) {
+  z-index: -1;
   position: relative;
-}
-
-.section2 .child2 {
-  position: relative;
-  height: 220px;
-}
-
-.section2 .child2 .img-basketballer {
-  position: absolute;
-  left: 8px;
-}
-
-.section2 .child3 {
   background-color: rgb(250, 250, 250);
 }
-
-.section2 .child3 .container-flex {
-  padding-top: 20px;
-}
-
-.section2 .child4 {
+.players .container-flex:nth-of-type(2) {
   background-color: rgb(245, 244, 249);
 }
-
-.section2 .child5 {
+.players .container-flex:nth-of-type(3) {
   background-color: rgb(9, 12, 53);
 }
 
-.section2 .child5 .number {
+.players .container-flex:nth-of-type(1)::before {
+  display: block;
+  content: '';
+  padding: 0;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+.players .container-flex:nth-of-type(3) .players__subheading::before {
+  content: "03";
   color: rgb(135, 101, 221);
   border-bottom-color: rgb(255, 255, 255);
 }
 
-.section2 .child5 .text {
+.players .container-flex:nth-of-type(3) .text {
   color: rgb(193, 193, 193);
 }
+
 
 /* section 3 - cards  */
 
