@@ -5,6 +5,7 @@
     background-image: linear-gradient(rgba(10, 14, 52, 0.9),
       rgba(10, 14, 52, 0.9)),
       url(../sources/img/football_1920.jpg);
+      min-height: 960px;
   }
 
   .footer {
@@ -23,6 +24,15 @@
     padding-top: 290px;
     padding-left: 193px;
     justify-content: flex-start;
+    font-size: 90px;
+    line-height: 1;
+  }
+
+  .header__slogan span {
+    margin-left: 440px;
+    margin-top: 0;
+    font-size: 90px;
+    line-height: 1;
   }
 
   .header .child3 {
@@ -39,25 +49,25 @@
     font-size: 90px;
   }
 
-  .header .buttons,
+  .header__buttons,
   .footer .buttons {
     display: flex;
     justify-content: center;
-    padding-top: 215px;
-    padding-bottom: 110px;
+    margin-top: 200px;
+    margin-bottom: 105px;
   }
 
-  .header .child4,
+  .header__button:nth-child(1),
   .footer .child3 {
-    padding: 0 25px 0 0;
+    margin: 0 25px 0 0;
   }
 
-  .header .child5,
+  .header__button:nth-child(2),
   .footer .child4 {
-    padding: 0 0 0 25px;
+    margin: 0 0 0 25px;
   }
 
-  .header .button,
+  .header__button,
   .footer .button {
     width: 311px;
     height: 77px;
@@ -65,30 +75,23 @@
     font-size: 14px;
   }
 
-  .header .child4 .logo,
+  .header__button .logo,
   .footer .child3 .logo {
     width: 33%;
     padding-right: 25px;
     padding-bottom: 5px;
   }
 
-  .header .child4 .logo+.cta,
-  .footer .child3 .logo+.cta {
-    width: 67%;
-  }
 
-  .header .child5 .logo,
+
+  .header__button:nth-child(2) .logo,
   .footer .child4 .logo {
     width: 40%;
     padding-right: 29px;
   }
 
-  .header .child5 .logo+.cta,
-  .footer .child4 .logo+.cta {
-    width: 60%;
-  }
-
-  .header .logo .logo-image,
+  
+  .header__button .logo-image,
   .footer .logo .logo-image {
     width: 42px;
     height: 50px;
