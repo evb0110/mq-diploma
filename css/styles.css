@@ -35,7 +35,7 @@ h3 {
 .footer,
 .athlets,
 .section2,
-.section3 {
+.cards {
   display: flex;
   flex-direction: column;
 }
@@ -146,7 +146,7 @@ h3 {
 
 .athlets .text,
 .players .text,
-.section3 .text {
+.cards .text {
   padding-top: 15px;
   font-size: 15px;
   letter-spacing: 0.5px;
@@ -156,7 +156,7 @@ h3 {
 
 .athlets__subheading,
 .players__subheading,
-.section3 .heading {
+.cards__heading {
   color: rgb(193, 193, 193);
   font-weight: bold;
   text-transform: uppercase;
@@ -166,8 +166,7 @@ h3 {
 }
 
 .athlets .container-flex,
-.players .container-flex,
-.section2 .container-flex {
+.players .container-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -274,19 +273,19 @@ h3 {
 
 /* section 3 - cards  */
 
-.section3 .container-card-flex {
+.cards__container-flex {
   display: flex;
   flex-direction: column;
 }
 
-.section3 .img-be-active,
-.section3 .img-find-contact,
-.section3 .img-work-it {
+.cards .img-be-active,
+.cards .img-find-contact,
+.cards .img-work-it {
   display: block;
   width: 100%;
 }
 
-.section3 .number-text {
+.cards__number-text {
   position: relative;
   padding-top: 30px;
   padding-left: 20px;
@@ -294,7 +293,7 @@ h3 {
   padding-bottom: 75px;
 }
 
-.section3 .number-rectangle {
+.cards .number-rectangle {
   position: absolute;
   left: 20px;
   top: -58px;
@@ -306,13 +305,13 @@ h3 {
   align-items: center;
 }
 
-.section3 .number {
+.cards .number {
   display: inline-block;
   color: rgb(255, 255, 255);
   border-bottom: 4px solid rgb(143, 123, 200);
 }
 
-.section3 .heading {
+.cards__heading {
   padding-left: 0;
 }
 

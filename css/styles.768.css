@@ -187,7 +187,7 @@
 
   .section1 .heading,
   .section2 .heading,
-  .section3 .heading {
+  .cards .heading {
     font-size: 32px;
   }
 
@@ -196,17 +196,17 @@
     font-size: 16px;
   }
 
-  .section3 .heading {
+  .cards .heading {
     font-size: 84px;
   }
 
-  .section3 .text {
+  .cards .text {
     font-size: 24px;
     padding-left: 5px;
     padding-right: 65px;
   }
 
-  .section3 .number-rectangle {
+  .cards .number-rectangle {
     position: absolute;
     left: 35px;
     top: -80px;
@@ -214,16 +214,16 @@
     height: 116px;
   }
 
-  .section3 .number {
+  .cards .number {
     font-size: 24px;
   }
 
-  .section3 .number-text {
+  .cards .number-text {
     padding-top: 60px;
     padding-left: 32px;
   }
 
-  .section3 .container-card-flex {
+  .cards .container-card-flex {
     overflow: hidden;
   }
 

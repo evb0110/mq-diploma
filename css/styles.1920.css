@@ -137,7 +137,7 @@
 
   .section1 .heading,
   .section2 .heading,
-  .section3 .heading {
+  .cards .heading {
     font-size: 36px;
   }
 
@@ -179,32 +179,32 @@
 
   /* SECTION 3 */
 
-  .section3 .heading {
+  .cards .heading {
     font-size: 80px;
   }
 
-  .section3 .container-card-flex {
+  .cards .container-card-flex {
     display: flex;
     flex-direction: row;
   }
 
-  .section3 .container-card-flex>* {
+  .cards .container-card-flex>* {
     width: 50%;
   }
 
-  .section3 .card2 .number-text {
+  .cards .card:nth-child(2) .number-text {
     order: -1;
   }
 
-  .section3 .number-text {
+  .cards .number-text {
     padding: calc(10%) 190px 0 130px;
   }
 
-  .section3 .card2 .number-text {
+  .cards .card:nth-child(2) .number-text {
     padding: 10% 100px 0 190px;
   }
 
-  .section3 .number-rectangle {
+  .cards .number-rectangle {
     position: absolute;
     left: -84px;
     top: calc(50% - 155px);
@@ -212,16 +212,16 @@
     height: 155px;
   }
 
-  .section3 .card2 .number-rectangle {
+  .cards .card:nth-child(2) .number-rectangle {
     left: calc(100% - 84px);
   }
 
-  .section3 .number,
-  .section3 .text {
+  .cards .number,
+  .cards .text {
     font-size: 24px;
   }
 
-  .section3 .text {
+  .cards .text {
     padding-top: 90px;
   }
 
