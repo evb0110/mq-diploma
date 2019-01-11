@@ -90,7 +90,7 @@ h3 {
 }
 
 .header__button,
-.footer .button {
+.footer__button {
   display: flex;
   align-items: center;
   width: 280px;
@@ -105,7 +105,7 @@ h3 {
 }
 
 .header__button .logo,
-.footer .button .logo {
+.footer__button .logo {
   width: 40%;
   display: flex;
   justify-content: flex-end;
@@ -114,12 +114,12 @@ h3 {
 }
 
 .header__button .store,
-.footer .button .store {
+.footer__button .store {
   font-weight: bold;
 }
 
 .header__button .logo-image,
-.footer .logo .logo-image {
+.footer__button .logo-image {
   width: 20px;
   height: 24px;
 }
@@ -174,7 +174,6 @@ h3 {
   padding: 50px 20px;
 }
 
-
 /* section 1 - athletes  */
 
 .athlets .container-flex:nth-of-type(1) {
@@ -196,7 +195,6 @@ h3 {
   background-color: rgb(250, 250, 250);
 }
 
-
 .athlets .container-flex:nth-of-type(2) {
   background-color: rgb(245, 244, 249);
 }
@@ -204,8 +202,6 @@ h3 {
 .athlets .container-flex:nth-of-type(3) {
   background-color: rgb(94, 66, 176)
 }
-
-
 
 .athlets__subheading::before,
 .players__subheading::before {
@@ -341,7 +337,6 @@ h3 {
   bottom: -7px;
 }
 
-
 .cards__heading {
   padding-left: 0;
 }
@@ -353,15 +348,8 @@ h3 {
   background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/game_767.jpg);
 }
 
-.footer .child1 {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.footer .child1 .surface {
+.footer .surface {
+  margin: 100px auto 0 auto;
   width: 70px;
   height: 70px;
   border-radius: 12px;
@@ -369,14 +357,14 @@ h3 {
   background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
 }
 
-.footer .child2 {
+.footer__slogan {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.footer .slogan1,
+.footer__slogan,
 .footer .slogan2,
 .footer .cta,
 .footer .store {
@@ -386,32 +374,21 @@ h3 {
   text-transform: uppercase;
 }
 
-.footer .subslogan {
+.footer__slogan span {
   font-size: 14px;
   color: rgb(164, 150, 202);
   text-transform: uppercase;
 }
 
-.footer .child3,
-.footer .child4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+.footer__button:nth-child(1) {
+  margin: 70px auto 0 auto;
 }
 
-.footer .child3 {
-  padding-top: 70px;
+.footer__button:nth-child(2) {
+  margin: 13px auto 0 auto;
 }
 
-.footer .child4 {
-  padding-top: 13px;
-}
-
-.footer .child5 {
-  padding-bottom: 10px;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.footer .surface-text-logo {
+  width: 135px;
+  margin: auto auto 10px auto;
 }
