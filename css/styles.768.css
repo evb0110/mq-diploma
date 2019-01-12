@@ -1,22 +1,28 @@
 @media (min-width: 768px) and (max-width: 960px) {
-
   /* HEADER AND FOOTER */
 
   .header {
-    background-image: linear-gradient(rgba(10, 14, 52, 0.9),
-      rgba(10, 14, 52, 0.9)),
+    background-image: linear-gradient(
+        rgba(10, 14, 52, 0.9),
+        rgba(10, 14, 52, 0.9)
+      ),
       url(../sources/img/football_1280.jpg);
   }
 
   .footer {
-    background-image: linear-gradient(rgba(10, 14, 52, 0.9),
-      rgba(10, 14, 52, 0.9)),
+    background-image: linear-gradient(
+        rgba(10, 14, 52, 0.9),
+        rgba(10, 14, 52, 0.9)
+      ),
       url(../sources/img/game_1280.jpg);
   }
 
   .header__text-logo,
-  .footer .surface-text-logo {
+  .footer__text-logo {
     width: 210px;
+  }
+  .footer__text-logo {
+    margin-bottom: 20px;
   }
 
   .header__slogan {
@@ -25,14 +31,24 @@
     font-size: 64px;
   }
 
+  .footer__slogan {
+    font-size: 85px;
+  }
+
   .header__slogan span {
     margin-top: 0;
     margin-left: 100px;
     font-size: 64px;
   }
 
+  .footer__slogan span {
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1;
+  }
+
   .header__buttons,
-  .footer .buttons {
+  .footer__buttons {
     display: flex;
     justify-content: center;
     margin-top: 290px;
@@ -40,54 +56,55 @@
   }
 
   .header__button,
-  .footer .button {
+  .footer__button {
     width: 311px;
     height: 77px;
     border-radius: 38.5px;
     font-size: 14px;
   }
 
-  .header__button:nth-child(1) {
+  .header__button:nth-child(1),
+  .footer__button:nth-child(1) {
     margin: 0 15px 0 0;
   }
 
-  .header__button:nth-child(2) {
+  .header__button:nth-child(2),
+  .footer__button:nth-child(2) {
     margin: 0 0 0 15px;
   }
 
   .header__button .logo,
-  .footer .child3 .logo {
+  .footer__button .logo {
     width: 33%;
     padding-right: 25px;
     padding-bottom: 5px;
   }
 
-  .header__button:nth-child(2) .logo {
+  .header__button:nth-child(2) .logo,
+  .footer__button:nth-child(2) .logo {
     width: 40%;
   }
 
   .header__button .logo-image,
-  .footer .logo .logo-image {
+  .footer__button .logo-image {
     width: 42px;
     height: 50px;
   }
 
   /* ************ */
 
-  .footer .child3 .logo+.cta {
+  .footer .child3 .logo + .cta {
     width: 67%;
   }
-
 
   .footer .child4 .logo {
     width: 40%;
     padding-right: 29px;
   }
 
-  .footer .child4 .logo+.cta {
+  .footer .child4 .logo + .cta {
     width: 60%;
   }
-
 
   .footer .child3 {
     padding: 0 15px 0 0;
@@ -97,7 +114,6 @@
     padding: 0 0 0 15px;
   }
 
-
   .footer .child1 {
     padding-top: 125px;
   }
@@ -106,98 +122,97 @@
     padding-bottom: 24px;
   }
 
-  .footer .child1 .surface {
+  .footer .surface {
     width: 132px;
     height: 132px;
     border-radius: 25px;
     padding: 14px 12px 12px 12px;
-    background-image: linear-gradient(180deg,
+    background-image: linear-gradient(
+      180deg,
       rgb(115, 83, 210),
-      rgb(80, 55, 155));
+      rgb(80, 55, 155)
+    );
   }
 
   .footer .child2 {
     padding-top: 65px;
   }
 
-  .footer .slogan1 {
-    font-size: 85px;
-  }
-
-  .footer .subslogan {
-    font-size: 35px;
-    line-height: 1;
-  }
-
   /* SECTION 1, SECTION 2, SECTION 3 */
 
-  .section1 .child {
-    padding: 40px 50px 40px 290px;
+  .athlets,
+  .players {
+    position: relative;
   }
 
-  .section2 .child {
-    padding: 40px 350px 40px 30px;
-  }
-
-  .section1 .child1,
-  .section2 .child1 {
-    padding-top: 55px;
-    padding-bottom: 0;
-  }
-
-  .section1 .child2,
-  .section2 .child2 {
-    height: 0;
-    padding: 0;
-  }
-
-  .section1 .child2 .img-footballer {
-    width: 497px;
-    height: 699px;
-    top: -85px;
+  .athlets .img-footballer {
+    position: absolute;
+    top: 90px;
     left: -160px;
   }
 
-  .section2 .child2 .img-basketballer {
-    left: auto;
-    top: -130px;
-    right: 0;
-  }
-
-  .section1 .child3,
-  .section2 .child3 {
+  .athlets .container-flex:nth-of-type(1),
+  .players .container-flex:nth-of-type(1) {
     background-color: rgb(255, 255, 255);
-    padding-top: 0;
   }
 
-  .section1 .child3 .container-flex,
-  .section2 .child3 .container-flex {
-    padding-top: 25px;
+  .athlets .container-flex:nth-of-type(1)::before,
+  .players .container-flex:nth-of-type(1)::before {
+    background-color: rgb(255, 255, 255);
   }
 
-  .section1 .section-header,
-  .section2 .section-header {
-    font-size: 88px;
+  .athlets__heading,
+  .athlets .container-flex {
+    margin: 0;
+    padding-left: 290px;
+    padding-right: 50px;
+  }
+  .players__heading,
+  .players .container-flex {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 350px;
   }
 
-  .section1 .number,
-  .section2 .number {
-    font-size: 18px;
+  .athlets__heading,
+  .players__heading,
+  .cards__heading {
+    font-size: 80px;
+  }
+  .athlets__heading {
+    padding-top: 65px;
+  }
+  .players__heading {
+    padding-top: 60px;
   }
 
-  .section1 .heading,
-  .section2 .heading,
-  .cards .heading {
+  .athlets .container-flex,
+  .players .container-flex {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .athlets__subheading,
+  .players__subheading {
     font-size: 32px;
   }
 
-  .section1 .text,
-  .section2 .text {
+  .athlets__subheading::before,
+  .players__subheading::before {
+    font-size: 18px;
+    top: -10px;
+    margin-right: 10px;
+  }
+
+  .athlets .text,
+  .players .text {
     font-size: 16px;
   }
 
-  .cards .heading {
-    font-size: 84px;
+  .players .img-basketballer {
+    position: absolute;
+    top: 30px;
+    right: 0;
   }
 
   .cards .text {
@@ -218,14 +233,16 @@
     font-size: 24px;
   }
 
-  .cards .number-text {
+  .cards .number::after {
+    bottom: -12px;
+  }
+
+  .cards__number-text {
     padding-top: 60px;
-    padding-left: 32px;
+    padding-left: 30px;
   }
 
   .cards .container-card-flex {
     overflow: hidden;
   }
-
-
 }
