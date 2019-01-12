@@ -53,8 +53,14 @@
   .footer__buttons {
     display: flex;
     justify-content: center;
+  }
+  .header__buttons {
     margin-top: 200px;
     margin-bottom: 105px;
+  }
+  .footer__buttons {
+    margin-top: 150px;
+    margin-bottom: 260px;
   }
 
   .header__button:nth-child(1),
@@ -241,7 +247,7 @@
   /* FOOTER */
 
   .footer .logo-cta-flex {
-    padding-top: 250px;
+    padding-top: 220px;
     display: flex;
     justify-content: center;
   }
