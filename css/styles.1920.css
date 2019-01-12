@@ -50,7 +50,7 @@
   }
 
   .header__buttons,
-  .footer .buttons {
+  .footer__buttons {
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -58,17 +58,17 @@
   }
 
   .header__button:nth-child(1),
-  .footer .child3 {
+  .footer__button:nth-child(1) {
     margin: 0 25px 0 0;
   }
 
   .header__button:nth-child(2),
-  .footer .child4 {
+  .footer__button:nth-child(2) {
     margin: 0 0 0 25px;
   }
 
   .header__button,
-  .footer .button {
+  .footer__button {
     width: 311px;
     height: 77px;
     border-radius: 37.5px;
@@ -76,7 +76,7 @@
   }
 
   .header__button .logo,
-  .footer .child3 .logo {
+  .footer__button .logo {
     width: 33%;
     padding-right: 25px;
     padding-bottom: 5px;
@@ -85,123 +85,135 @@
 
 
   .header__button:nth-child(2) .logo,
-  .footer .child4 .logo {
+  .footer__button:nth-child(2) .logo {
     width: 40%;
     padding-right: 29px;
   }
 
   
   .header__button .logo-image,
-  .footer .logo .logo-image {
+  .footer__button .logo-image {
     width: 42px;
     height: 50px;
   }
 
 
-  .footer .surface-text-logo {
+  .footer__text-logo {
     width: 191px;
+    margin-bottom: 50px;
   }
 
   /* SECTION1, SECTION2 */
 
-  .section1 .child,
-  .section2 .child {
-    padding-top: 55px;
+
+  .athlets,
+  .players {
+    position: relative;
+  }
+
+  .athlets .container-flex:nth-of-type(1),
+  .players .container-flex:nth-of-type(1),
+  .athlets .container-flex:nth-of-type(1)::before,
+  .players .container-flex:nth-of-type(1)::before {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .athlets .img-footballer {
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 575px);
+  }
+  .players .img-basketballer {
+    position: absolute;
+    top: 20px;
+    /* right: 115px; */
+    left: calc(50% - 180px);
+  }
+
+
+  .athlets__heading,
+  .athlets .container-flex,
+  .players__heading,
+  .players .container-flex {
+    padding-top: 57px;
     padding-bottom: 55px;
   }
 
-  .section1 .child {
+  .athlets__heading,
+  .athlets .container-flex {
+    margin: 0;
     padding-left: calc(50% + 40px);
     padding-right: 195px;
   }
 
-  .section2 .child {
+  .players__heading,
+  .players .container-flex {
+    margin: 0;
     padding-left: 190px;
     padding-right: calc(50%);
   }
 
-  .section1 .section-header,
-  .section2 .section-header {
-    font-size: 88px;
+  .athlets__heading,
+  .players__heading {
+    margin-top: 40px;
+    font-size: 80px;
   }
 
-  .section1 .number,
-  .section2 .number {
+  .athlets__subheading::before,
+  .players__subheading::before {
     font-size: 18px;
   }
 
-  .section1 .text,
-  .section2 .text {
+  .athlets .text,
+  .players .text {
     font-size: 20px;
   }
 
-  .section1 .heading,
-  .section2 .heading,
+  .athlets__subheading,
+  .players__subheading,
   .cards .heading {
     font-size: 36px;
   }
 
-  .section1 .child1,
-  .section2 .child1 {
-    padding-top: 90px;
-    padding-bottom: 0;
+  .athlets__subheading::before,
+  .players__subheading::before {
+    font-size: 18px;
+    top: -13px;
+    margin-right: 10px;
   }
 
-  .section1 .child2,
-  .section2 .child2 {
-    height: 0;
-    padding: 0;
-  }
-
-  .section1 .child2 .img-footballer {
-    width: 566px;
-    height: 908px;
-    top: -180px;
-    left: calc(50% - 555px);
-  }
-
-  .section2 .child2 .img-basketballer {
-    width: 991px;
-    height: 815px;
-    top: -190px;
-    left: calc(50% - 180px);
-  }
-
-  .section1 .child3,
-  .section2 .child3 {
-    padding-top: 50px;
-    background: rgb(255, 255, 255);
-  }
-
-  .section1 .child3 .container-flex {
-    padding-top: 0;
-  }
 
   /* SECTION 3 */
 
-  .cards .heading {
+  .cards__heading {
     font-size: 80px;
   }
 
-  .cards .container-card-flex {
+  .cards__container-flex {
     display: flex;
     flex-direction: row;
   }
 
-  .cards .container-card-flex>* {
+  .cards__container-flex>* {
     width: 50%;
+    height: 730px;
   }
 
-  .cards .card:nth-child(2) .number-text {
+  .cards img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cards .card:nth-child(2) .cards__number-text {
     order: -1;
   }
 
-  .cards .number-text {
-    padding: calc(10%) 190px 0 130px;
+  .cards__number-text {
+    padding: 240px 210px 0 130px;
   }
 
-  .cards .card:nth-child(2) .number-text {
-    padding: 10% 100px 0 190px;
+  .cards .card:nth-child(2) .cards__number-text {
+    padding: 240px 120px 0 190px;
   }
 
   .cards .number-rectangle {
@@ -222,7 +234,7 @@
   }
 
   .cards .text {
-    padding-top: 90px;
+    padding-top: 35px;
   }
 
 
@@ -243,31 +255,32 @@
     padding-right: 35px;
   }
 
-  .footer .slogan1 {
+  .footer__slogan {
+    padding-top: 0;
+    padding-left: 35px;
     font-size: 84px;
-    line-height: 1;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.1;
   }
 
-  .footer .subslogan {
+  .footer__slogan span {
     font-size: 30px;
+    font-weight: normal;
   }
 
-  .footer .child1 .surface {
+  .footer .surface {
+    margin: 0;
     width: 130px;
     height: 140px;
     border-radius: 30px;
     padding: 22px 13px 22px 13px;
   }
 
-  .footer .child2 {
+  .footer__buttons {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-  }
-
-  .footer .child5 {
-    padding-bottom: 52px;
   }
 
   .footer .buttons {

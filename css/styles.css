@@ -40,6 +40,7 @@ h3 {
   flex-direction: column;
 }
 
+
 /* HEADER */
 
 .header,
@@ -375,12 +376,18 @@ h3 {
 
 .footer__slogan,
 .footer .slogan2,
-.footer .cta,
 .footer .store {
   text-transform: uppercase;
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
+}
+
+.footer .cta {
+  text-transform: uppercase;
+  text-align: left;
+  text-transform: uppercase;
+
 }
 
 .footer__slogan span {

@@ -91,37 +91,6 @@
     height: 50px;
   }
 
-  /* ************ */
-
-  .footer .child3 .logo + .cta {
-    width: 67%;
-  }
-
-  .footer .child4 .logo {
-    width: 40%;
-    padding-right: 29px;
-  }
-
-  .footer .child4 .logo + .cta {
-    width: 60%;
-  }
-
-  .footer .child3 {
-    padding: 0 15px 0 0;
-  }
-
-  .footer .child4 {
-    padding: 0 0 0 15px;
-  }
-
-  .footer .child1 {
-    padding-top: 125px;
-  }
-
-  .footer .child5 {
-    padding-bottom: 24px;
-  }
-
   .footer .surface {
     width: 132px;
     height: 132px;
@@ -134,11 +103,7 @@
     );
   }
 
-  .footer .child2 {
-    padding-top: 65px;
-  }
-
-  /* SECTION 1, SECTION 2, SECTION 3 */
+  /* SECTIONS */
 
   .athlets,
   .players {
@@ -152,14 +117,12 @@
   }
 
   .athlets .container-flex:nth-of-type(1),
-  .players .container-flex:nth-of-type(1) {
-    background-color: rgb(255, 255, 255);
-  }
-
+  .players .container-flex:nth-of-type(1),
   .athlets .container-flex:nth-of-type(1)::before,
   .players .container-flex:nth-of-type(1)::before {
     background-color: rgb(255, 255, 255);
   }
+
 
   .athlets__heading,
   .athlets .container-flex {
