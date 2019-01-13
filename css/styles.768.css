@@ -2,25 +2,17 @@
   /* HEADER AND FOOTER */
 
   .header {
-    background-image: linear-gradient(
-        rgba(10, 14, 52, 0.9),
-        rgba(10, 14, 52, 0.9)
-      ),
-      url(../sources/img/football_1280.jpg);
+    background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/football_1280.jpg);
   }
 
-  .footer {
-    background-image: linear-gradient(
-        rgba(10, 14, 52, 0.9),
-        rgba(10, 14, 52, 0.9)
-      ),
-      url(../sources/img/game_1280.jpg);
+  .footer {background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../sources/img/game_1280.jpg);
   }
 
   .header__text-logo,
   .footer__text-logo {
     width: 210px;
   }
+
   .footer__text-logo {
     margin-bottom: 20px;
   }
@@ -96,12 +88,9 @@
     height: 132px;
     border-radius: 25px;
     padding: 14px 12px 12px 12px;
-    background-image: linear-gradient(
-      180deg,
-      rgb(115, 83, 210),
-      rgb(80, 55, 155)
-    );
+    background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
   }
+
 
   /* SECTIONS */
 
@@ -123,13 +112,13 @@
     background-color: rgb(255, 255, 255);
   }
 
-
   .athlets__heading,
   .athlets .container-flex {
     margin: 0;
     padding-left: 290px;
     padding-right: 50px;
   }
+
   .players__heading,
   .players .container-flex {
     margin: 0;
@@ -142,9 +131,11 @@
   .cards__heading {
     font-size: 80px;
   }
+
   .athlets__heading {
     padding-top: 65px;
   }
+  
   .players__heading {
     padding-top: 60px;
   }

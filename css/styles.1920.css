@@ -6,6 +6,7 @@
       rgba(10, 14, 52, 0.9)),
       url(../sources/img/football_1920.jpg);
       min-height: 960px;
+    display: block;
   }
 
   .footer {
@@ -15,37 +16,30 @@
   }
 
   .header__text-logo {
-    margin-top: 47px;
+    display: block;
+    margin: auto;
+    padding-top: 47px;
     width: 191px;
   }
 
-
   .header__slogan {
+    box-sizing: content-box;
+    max-width: 1430px;
     padding-top: 290px;
-    padding-left: 193px;
-    justify-content: flex-start;
+    padding-left: 192px;
+    padding-right: 250px;
     font-size: 90px;
     line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
   }
-
+  
   .header__slogan span {
-    margin-left: 440px;
+    display: block;
+    padding-left: 0px;
+    text-align: right;
     margin-top: 0;
-    font-size: 90px;
-    line-height: 1;
-  }
-
-  .header .child3 {
-    padding-right: 198px;
-    justify-content: flex-end;
-  }
-
-  .header .slogan1 {
-    font-size: 99px;
-    line-height: 1;
-  }
-
-  .header .slogan2 {
+    margin: 0;
     font-size: 90px;
   }
 
@@ -54,10 +48,12 @@
     display: flex;
     justify-content: center;
   }
+
   .header__buttons {
     margin-top: 200px;
     margin-bottom: 105px;
   }
+
   .footer__buttons {
     margin-top: 150px;
     margin-bottom: 260px;
@@ -88,14 +84,11 @@
     padding-bottom: 5px;
   }
 
-
-
   .header__button:nth-child(2) .logo,
   .footer__button:nth-child(2) .logo {
     width: 40%;
     padding-right: 29px;
   }
-
   
   .header__button .logo-image,
   .footer__button .logo-image {
@@ -109,8 +102,8 @@
     margin-bottom: 50px;
   }
 
-  /* SECTION1, SECTION2 */
 
+  /* ATHLETS, PLAYERS */
 
   .athlets,
   .players {
@@ -132,10 +125,8 @@
   .players .img-basketballer {
     position: absolute;
     top: 20px;
-    /* right: 115px; */
     left: calc(50% - 180px);
   }
-
 
   .athlets__heading,
   .athlets .container-flex,
@@ -173,11 +164,11 @@
   .athlets .text,
   .players .text {
     font-size: 20px;
+    max-width: 720px;
   }
 
   .athlets__subheading,
-  .players__subheading,
-  .cards .heading {
+  .players__subheading {
     font-size: 36px;
   }
 
@@ -189,7 +180,7 @@
   }
 
 
-  /* SECTION 3 */
+  /* CARDS */
 
   .cards__heading {
     font-size: 80px;
@@ -202,7 +193,6 @@
 
   .cards__container-flex>* {
     width: 50%;
-    height: 730px;
   }
 
   .cards img {
@@ -215,11 +205,13 @@
   }
 
   .cards__number-text {
-    padding: 240px 210px 0 130px;
+    padding: calc(20% - 170px) 210px 0 130px;
   }
 
+
   .cards .card:nth-child(2) .cards__number-text {
-    padding: 240px 120px 0 190px;
+    /* padding: calc(20% - 170px) 6% 0 calc(20% - 170px); */
+    padding: 12% 120px 0 190px;
   }
 
   .cards .number-rectangle {
@@ -241,6 +233,7 @@
 
   .cards .text {
     padding-top: 35px;
+    max-width: 960px;
   }
 
 
