@@ -1,0 +1,21 @@
+@media (min-width: 961px) and (max-width: 1440px) {
+
+  .players .img-basketballer {
+    position: absolute;
+    left: calc(50% - 58px);
+    height: 700px;
+  }
+  .players__heading,
+  .players .container-flex {
+    padding-left: 50px;
+    padding-right: calc(50% - 50px);
+  }
+  .cards__number-text {
+    padding: 30px 120px 30px 20px;
+  }
+  .cards .card:nth-of-type(2n+1) .cards__number-text {
+    padding-left: 120px;
+    padding-right: 50px;
+  }
+  
+}

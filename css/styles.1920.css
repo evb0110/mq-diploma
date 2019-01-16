@@ -111,6 +111,11 @@
     position: relative;
   }
 
+  .players {
+    overflow-x: hidden;
+  }
+  
+
   .athlets .container-flex:nth-of-type(1),
   .players .container-flex:nth-of-type(1),
   .athlets .container-flex:nth-of-type(1)::before,
@@ -121,18 +126,18 @@
   .athlets .img-footballer {
     position: absolute;
     top: -75px;
-    left: calc(50% - 560px);
+    left: calc(50% - 580px);
   }
   .players .img-basketballer {
     position: absolute;
-    top: -80px;
-    left: calc(50% - 150px);
+    top: 17px;
+    left: calc(50% - 158px);
   }
 
   .athlets__heading,
   .athlets .container-flex {
     margin: 0;
-    padding-left: calc(50% + 60px);
+    padding-left: calc(50% + 50px);
     padding-right: 195px;
     padding-top: 10px;
     padding-bottom: 60px;
@@ -220,13 +225,21 @@
   }
 
   .cards__number-text {
-    padding: calc(20% - 170px) 210px 0 130px;
+    padding: calc(20% - 160px) 210px 240px 130px;
+  }
+
+  .cards .text {
+    padding-top: 85px;
+    max-width: 960px;
+  }
+  .cards .card:nth-child(3) .text {
+    padding-top: 85px;
+    max-width: 960px;
   }
 
 
   .cards .card:nth-child(2) .cards__number-text {
-    /* padding: calc(20% - 170px) 6% 0 calc(20% - 170px); */
-    padding: 12% 120px 0 190px;
+    padding: 12% 120px 240 190px;
   }
 
   .cards .number-rectangle {
@@ -246,16 +259,12 @@
     font-size: 24px;
   }
 
-  .cards .text {
-    padding-top: 35px;
-    max-width: 960px;
-  }
-
+ 
 
   /* FOOTER */
 
   .footer .logo-cta-flex {
-    padding-top: 220px;
+    padding-top: 230px;
     display: flex;
     justify-content: center;
   }
