@@ -143,15 +143,19 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
+.athlets .img-footballer {
+  padding-left: 15px;
+}
 
 .athlets .text,
 .players .text,
 .cards .text {
-  padding-top: 15px;
+  padding-top: 18px;
   font-size: 15px;
   letter-spacing: 0.5px;
   color: black;
   text-align: left;
+  line-height: 1.25;
 }
 
 .athlets__subheading,
@@ -171,7 +175,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  padding: 50px 20px;
+  padding: 50px 25px 55px 20px;
 }
 
 /* section 1 - athletes  */
@@ -191,7 +195,7 @@ h3 {
   height: 55px;
   position: absolute;
   top: -55px;
-  left: 0;
+  left: 0px;
   background-color: rgb(250, 250, 250);
 }
 
@@ -293,7 +297,7 @@ h3 {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 75px;
+  padding-bottom: 78px;
 }
 
 .cards .number-rectangle {
