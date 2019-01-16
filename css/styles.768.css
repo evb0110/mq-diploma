@@ -13,14 +13,21 @@
     width: 210px;
   }
 
+  .header__text-logo {
+    margin-top: 35px;
+  }
+
   .footer__text-logo {
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
 
   .header__slogan {
     margin: 0 auto;
-    padding: 165px 90px 0 90px;
+    padding: 165px 85px 0 90px;
     font-size: 64px;
+    letter-spacing: 2.2px;
+    line-height: 1.25;
   }
 
   .footer__slogan {
@@ -31,6 +38,7 @@
     margin-top: 0;
     margin-left: 100px;
     font-size: 64px;
+    letter-spacing: 2.5px;
   }
 
   .footer__slogan span {
@@ -44,7 +52,14 @@
     display: flex;
     justify-content: center;
     margin-top: 290px;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
+  }
+
+  .header {
+    padding-bottom: 90px
+  }
+  .footer {
+    padding-bottom: 20px;
   }
 
   .header__button,
@@ -87,6 +102,7 @@
     width: 132px;
     height: 132px;
     border-radius: 25px;
+    margin-top: 130px;
     padding: 14px 12px 12px 12px;
     background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
   }
@@ -101,8 +117,8 @@
 
   .athlets .img-footballer {
     position: absolute;
-    top: 90px;
-    left: -160px;
+    top: 95px;
+    left: -172px;
   }
 
   .athlets .container-flex:nth-of-type(1),
@@ -140,10 +156,16 @@
     padding-top: 60px;
   }
 
-  .athlets .container-flex,
-  .players .container-flex {
-    padding-top: 40px;
+  .athlets .container-flex:nth-last-of-type(n) {
+    padding-top: 30px;
     padding-bottom: 40px;
+    padding-right: 35px;
+  }
+
+  .players .container-flex:nth-last-of-type(n) {
+    padding-top: 25px;
+    padding-bottom: 37px;
+    padding-right: 335px;
   }
 
   .athlets__subheading,
@@ -158,9 +180,14 @@
     margin-right: 10px;
   }
 
-  .athlets .text,
+  .athlets .text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
   .players .text {
     font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
   }
 
   .players .img-basketballer {
@@ -173,6 +200,12 @@
     font-size: 24px;
     padding-left: 5px;
     padding-right: 65px;
+  }
+
+  .cards .card:nth-of-type(3) .text {
+    padding-top: 0;
+    line-height: 1.2;
+    padding-bottom: 40px;
   }
 
   .cards .number-rectangle {
@@ -194,6 +227,7 @@
   .cards__number-text {
     padding-top: 60px;
     padding-left: 30px;
+    padding-bottom: 100px;
   }
 
   .cards .container-card-flex {
